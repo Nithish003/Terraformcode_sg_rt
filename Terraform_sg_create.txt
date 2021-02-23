@@ -56,8 +56,6 @@ resource "aws_security_group" "ServiceSG" {
 
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA3XDXBFMLQI4DE6M3"
-  secret_key = "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"
 }
 
 resource "aws_internet_gateway" "main"{
